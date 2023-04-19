@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo App</title>
+  <meta name="description" content="Sign up form for to do app using vanilla JavaScript"/>
+  <meta name="author" content="Sofía L. Pereyra">
+
+  <link rel="stylesheet" href="./styles/loginSignupStyles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="./scripts/utils.js"></script>
+  <script src="./scripts/signup.js"></script>
+
+</head>
+
+<body>
+  <header class="container">
+    <nav>
+      <h1>To-Do App</h1>
+      <h2><i class="fa-solid fa-code"></i> Sofía L. Pereyra</h2>
+    </nav>
+  </header>
+
+  <div class="container">
+    <form>
+      <div class="form-header">
+        <h2>To-Do App</h2>
+        <p class="rounded">Register</p>
+      </div>
+
+      <label>Name</label>
+      <input id="inputName" type="text">
+
+      <label>Last Name</label>
+      <input id="inputLastName" type="text">
+
+      <label>Email</label>
+      <input id="inputEmail" type="text">
+
+      <label>Password</label>
+      <input id="inputPassword" type="password">
+
+      <label>Confirm Password</label>
+      <input id="inputConfirmPassword" type="password">
+
+      <button type="submit">Register</button>
+    </form>
+
+    <div class="get-into">
+      <a href="index.html">Have already an account? Login Here</a>
+    </div>
+  </div>
+</body>
+
+</html>

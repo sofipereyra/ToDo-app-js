@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo App</title>
+  <meta name="description" content="Here ypu'll find all your tasks, you can create new ones and delete pre-existing tasks" />
+  <meta name="author" content="Sofía L. Pereyra">
+
+  <link rel="stylesheet" href="./styles/tasksStyles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="./scripts/taks.js"></script>
+</head>
+
+<body>
+  <header class="container">
+    <nav>
+      <h1>To-Do App</h1>
+
+      <div class="user-info">
+        <p class="user-name">username</p>
+        <div class="user-image"></div>
+        <button id="closeApp"><i class="fa-solid fa-right-from-bracket"></i> Log Out</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <form class="new-task">
+      <input id="newTask" type="text" placeholder="New task">
+      <button type="submit"><i class="fa-solid fa-pencil"></i> Create new task</button>
+    </form>
+
+    <ul class="pending-tasks">
+
+    </ul>
+
+    <h2>Completed tasks <span id="finished-amount">0</span></h2>
+    <ul class="completed-tasks">
+
+    </ul>
+
+  </main>
+
+
+  <footer>
+    <p>Sofía Lourdes Pereyra ♥</p>
+  </footer>
+</body>
+
+</html>
